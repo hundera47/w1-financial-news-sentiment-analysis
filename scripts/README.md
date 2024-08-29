@@ -1,14 +1,11 @@
+# Scripts for Financial News Sentiment Analysis
 
-**2. `scripts/README.md`:**
+This folder contains the core functionalities used for analyzing the financial news dataset. Each function is designed to perform a specific task that contributes to the overall analysis.
 
-```markdown
-# Scripts
+## Available Functions
 
-This directory contains Python scripts that define core functionalities and reusable code for the data analysis project. Scripts include functions, classes, and tools that are utilized in the Jupyter notebooks.
+- `calculate_headline_length`: Computes the length of each headline in the dataset.
+- `count_articles_per_publisher`: Counts the number of articles contributed by each publisher.
+- `plot_articles_over_time`: Plots the number of articles published over time to identify trends.
 
-## How to Use
-
-1. **Activate Virtual Environment:**
-   Ensure you have activated the virtual environment:
-   ```bash
-   .venv\Scripts\activate
+Each function can be imported and utilized in the Jupyter notebooks under the `notebooks/` folder.
