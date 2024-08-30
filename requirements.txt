@@ -8,3 +8,5 @@ scikit-learn
 ta-lib
 pynance
 jupyter
+spacy
+gensim
